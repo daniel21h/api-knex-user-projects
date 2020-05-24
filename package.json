@@ -1,0 +1,19 @@
+{
+  "name": "knexjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon src/server.js"
+  },
+  "repository": "https://github.com/daniel21h/api-knex-user-projects.git",
+  "author": "daniel21h <hesseldaniel21@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  }
+}
